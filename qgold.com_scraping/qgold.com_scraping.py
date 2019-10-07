@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 from selenium import webdriver
 
-workbook = Workbook('MUSTAFA.xlsx')
+workbook = Workbook('qgold.xlsx')
 worksheet = workbook.add_worksheet('1')
 worksheet.write(0,0,"Title")
 worksheet.write(0,1,"Cost")
